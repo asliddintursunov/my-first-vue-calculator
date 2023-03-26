@@ -1,0 +1,47 @@
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    font-size: 1.6rem;
+    display: grid;
+    place-items: center;
+    background-color: #f1e3d5;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container>div {
+    display: flex;
+    flex-direction: column;
+}
+.btn-arithmetic-container{
+    display: flex;
+    flex-direction: row;
+}
+.nums-container{
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.arithmetic-container{
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1 1fr;
+}
+/* .output-container{
+    
+} */
+.main-container{
+    display: flex;
+    flex: 1;
+}
+.main-container > button{
+    flex: 1;
+}
