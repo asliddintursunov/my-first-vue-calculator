@@ -32,7 +32,7 @@ export default {
             dotValue: '.',
             numbers: ['=', 0, 3, 2, 1, 6, 5, 4, 9, 8, 7,].reverse(),
             arithIsTrue: true,
-            arithmetics: ['+', '-', '×', '/'],
+            arithmetics: ['+', '-', '*', '/'],
             main: ['AC', '%', '+/-', '↩'],
             current: '',
         }
